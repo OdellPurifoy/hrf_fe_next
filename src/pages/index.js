@@ -1,10 +1,13 @@
-export default function Home() {
+ import Link from "next/link";
+ 
+
+ const Home = () => {
   return (
     <div>
+       <Link href='/lounges'>See Lounges</Link>
       <h1>Home</h1>
       <div>Working now</div>
     </div>
-    // <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    // </main>
   )
 }
+export default Home
